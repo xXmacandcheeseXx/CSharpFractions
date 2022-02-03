@@ -13,14 +13,14 @@ namespace Fractions
 
             if (bottom < 0)
             {
-                throw new DenominatorCannotLessThanOne();
+                throw new DenominatorUnderOne();
             }
 
             this.bottom = bottom;
         }
     }
 
-    class DenominatorCannotLessThanOne : Exception
+    class DenominatorUnderOne : Exception
     {
         public override string Message
         {
