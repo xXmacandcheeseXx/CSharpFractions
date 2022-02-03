@@ -11,7 +11,7 @@ namespace Fractions
         {
             this.top = top;
 
-            if (bottom < 0)
+            if (bottom < 1)
             {
                 throw new DenominatorUnderOne();
             }
