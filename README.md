@@ -1,4 +1,4 @@
 # CSharpFractions
 Fraction library for C#
 # Documentation
-![Screenshot](Example.png)
+![Screenshot](Example1.png)
